@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-// TODO: Edit field overview.
 /**
- * @fileoverview Field overview.
+ * @fileoverview a field that allows users to enter text or select from a dropdown
+ * @author alexistkfraga@gmail.com (Alexis Fraga)
  */
 
 import Blockly from 'blockly/core';
