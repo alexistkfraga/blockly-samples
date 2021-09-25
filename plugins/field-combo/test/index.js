@@ -10,12 +10,12 @@
 
 import * as Blockly from 'blockly';
 import {generateFieldTestBlocks, createPlayground} from '@blockly/dev-tools';
-import '../src/index';
+import '../src/field_combo';
 
 const toolbox = generateFieldTestBlocks('field_template', [
   {
     'args': {
-      'value': 0, // TODO: change default value
+      'value': 0,
     },
   },
 ]);

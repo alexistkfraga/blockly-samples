@@ -5,7 +5,7 @@
  */
 
 const {testHelpers} = require('@blockly/dev-tools');
-const {FieldTemplate} = require('../src/index');
+const {FieldTemplate} = require('../src/field_combo');
 
 const {
   FieldCreationTestCase, FieldValueTestCase, runConstructorSuiteTests,

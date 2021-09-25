@@ -5,7 +5,7 @@
  */
 
 /**
- * @fileoverview a field that allows users to enter text or select from a dropdown
+ * @fileoverview Field that allows entering text or select from a dropdown.
  * @author alexistkfraga@gmail.com (Alexis Fraga)
  */
 
@@ -15,18 +15,17 @@ import Blockly from 'blockly/core';
 /**
  * Field description.
  */
-export class FieldTemplate extends Blockly.Field {
+export class FieldCombo extends Blockly.Field {
   /**
    * Constructs a FieldTemplate from a JSON arg object.
    * @param {!Object} options A JSON object with options.
-   * @return {!FieldTemplate} The new field instance.
+   * @return {!FieldCombo} The new field instance.
    * @package
    * @nocollapse
    */
   static fromJson(options) {
-    return new FieldTemplate(options['value']);
+    return new FieldCombo(options['value']);
   }
 }
 
-// TODO: Edit field registration key.
-Blockly.fieldRegistry.register('field_template', FieldTemplate);
+Blockly.fieldRegistry.register('field_combo', FieldCombo);
